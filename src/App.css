@@ -1,0 +1,36 @@
+.CodeMirror{
+  height: 340px !important;
+  color: #fff;
+  
+}
+
+.CodeMirror-gutters{
+  background: #1d1e22 !important;
+}
+
+.CodeMirror-scroll{
+  background: #1d1e22 ;
+}
+
+.ptag{
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  padding :3vh;
+  font-size: 4.5vh;
+}
+
+.linktag{
+  font-size: 3vh;
+  color: whitesmoke;
+  display: flex;
+  text-align:justify;
+  font-weight: 400;
+  padding: 3vh;
+}
+
+.linktag:hover{
+  cursor: pointer;
+  color: blue;
+  font-size: 2.5vh;
+}
