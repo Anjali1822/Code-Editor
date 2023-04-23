@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+//components
+import Home from './components/Home';
+import DataProvider from './context/DataProvider';  //Home is wrapped with it
+import Modal from './components/Modal';
+
+//then components of Home under them access is of DataProvider States.  
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataProvider>
+      <Home/>
+      <Modal/>
+    </DataProvider> 
   );
 }
 
 export default App;
+
+//Data is passed as a children 
+//DataProvider is a component if we pass anything then it is called as props 
