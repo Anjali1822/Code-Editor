@@ -2,7 +2,7 @@
 
     
      
-Code Editor is an online platform for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It is an online code editor, where developers can create code snippets, called “pens”, and test them.
+Code Editor is an online platform for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It is an online code editor, where developers can create code snippets, called “pens”, and test them.Our platform uses React JS for the frontend interface and Material UI for designing purposes.
 
 # Technologies used :-
 1. React JS :- for making the frontend interface
