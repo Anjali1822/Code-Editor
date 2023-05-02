@@ -11,14 +11,13 @@ Code Editor is an online platform for testing and showcasing user-created HTML, 
 --------------------------------------------------------
 
 # Features
-Preview your code in real time
-No special software required
-Show off your amazing creations
-Learn things by experimenting
-Build small test cases to check or report bugs and resolve them
-Try out other developer’s code and visualize them in action
-Needs no compilation
-
+1. Preview your code in real time
+2. No special software required
+3. Show off your amazing creations
+4. Learn things by experimenting
+5. Build small test cases to check or report bugs and resolve them
+6. Try out other developer’s code and visualize them in action
+7. Needs no compilation
 
 --------------------------------------------------------
 
